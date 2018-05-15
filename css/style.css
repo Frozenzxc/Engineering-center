@@ -63,13 +63,14 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
-  min-height: 966px;
   top: 0;
   left: 0;
+  min-height: 966px;
   min-width: 1000px;
   width: 100%;
+  padding-bottom: 110px;
   /*flex-wrap: wrap;*/
+  
 
 }
 
@@ -185,7 +186,6 @@ body {
   padding-top: 76px;
   color: #ffffff;
   text-align: center;
-
 }
 .bot-head__title--uppercase {
   text-transform: uppercase;
@@ -220,6 +220,7 @@ body {
   text-align: center;
   font-size: 16px;
   font-weight: 700;
+  line-height: 24px;
   color: #ffffff;
   margin-top: 35px;
 }
@@ -249,4 +250,80 @@ body {
 .buttons__item:hover {
  color: #ffffff;
  background-color: #ee700e;
+}
+.titles {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+.services {
+  padding-top: 80px;
+  padding-bottom: 90px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.services__item {
+  width: 25%;
+  display: block;
+  min-height: 346px;
+  padding: 40px;
+  border: 1px solid transparent;
+  text-decoration: none;
+}
+.service__icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 42px;
+}
+.service__text {
+  font-size: 16px;
+  font-weight: 300;
+  color: #727272;
+  line-height: 24px;
+}
+.service__info {
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 0;
+  padding-top: 48px;
+}
+.services__item:hover {
+  border: 1px solid #ee700e;
+  color: #ee700e;
+}
+.service__info:hover {
+  text-decoration: underline;
+}
+.services__item:hover .service__text{
+   color: #ee700e;
+}
+.services__item:visited {
+  color: #ee700e;
+}
+.services__item:hover .service__info{
+   opacity: 1;
+}
+.services__item:visited .service__text{
+  color: #000000;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.news {
+  background-image: url('../images/background/news.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  min-height: 964px;
+  min-width: 1000px;
+  width: 100%;
+  padding-top: 78px;
+  padding-bottom: 82px;
+}
+.titles--white {
+  color: #ffffff;
 }
