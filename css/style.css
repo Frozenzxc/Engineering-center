@@ -306,10 +306,10 @@ body {
 .services__item:hover .service__info{
    opacity: 1;
 }
-.services__item:visited .service__text{
+/*.services__item:visited .service__text{
   color: #000000;
   font-weight: 900;
-  text-decoration: underline;
+  text-decoration: underline;*/
 }
 
 .news {
